@@ -18,4 +18,4 @@ jobs:
       - name : add rights for compile
         run : chmod +x mvnw
       - name : compile le projet
-        run : ./mvnw
+        run : ./mvnw compile
