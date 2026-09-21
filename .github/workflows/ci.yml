@@ -15,5 +15,7 @@ jobs:
         with :
           java-version : '25'
           distribution : 'temurin'
+      - name : add rights for compile
+        run : chmod +x mvnw
       - name : compile le projet
         run : ./mvnw
