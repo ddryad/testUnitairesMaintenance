@@ -6,7 +6,7 @@ on:
 
 jobs:
   compilation:
-    run-ons: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name : get code from source project
         uses : actions/checkout@v5
